@@ -1,0 +1,12 @@
+<?php
+define("BOT_TOKEN", "");
+define("CHAT_ID","111111111");
+define("SSH_HOST",'1.1.1.1');
+define("SSH_USERNAME",'username');
+define("SSH_PASSWORD",'password');
+define("FATAL_COUNT",10);
+
+define("RADIUS_SERVER",'username');
+define("RADIUS_SECRET",'secret');
+define("ACCOUNTING_USERNAME",'someuser');
+define("ACCOUNTING_PASSWORD",'somepassword');
