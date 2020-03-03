@@ -18,5 +18,5 @@ ACCOUNTING_USERNAME | Username (basic access request)
 ACCOUNTING_PASSWORD | Password (basic access request)
 
 #Cron
-`5 * * * * /usr/bin/php /home/username/RasMon/main.php >/dev/null 2>&1`
+`5 * * * * /usr/bin/php /home/username/RadMon/main.php >/dev/null 2>&1`
  
