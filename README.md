@@ -1,9 +1,9 @@
-#Preconfig
+# Preconfig  
 * rename config.php.example to config.php  
 * set your credentials in config.php
 * run `composer install` to install Radius plugin 
 
-#CONSTANTS
+# CONSTANTS  
 | Constant            | Value                                       |
 |---------------------|---------------------------------------------|
 | BOT_TOKEN           | Telegram Bot Token                          |
@@ -17,6 +17,6 @@
 | ACCOUNTING_USERNAME | Username (basic access request)             |
 | ACCOUNTING_PASSWORD | Password (basic access request)             |
 
-#Cron
+# Cron  
 `5 * * * * /usr/bin/php /home/username/RadMon/main.php >/dev/null 2>&1`
  
