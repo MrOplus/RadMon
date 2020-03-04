@@ -23,7 +23,11 @@ function perform_reboot(){
         notify("SSH FAILURE #WTF");
         return;
     }
-    echo $ssh->exec('reboot');
+    try{
+        $ssh->exec('reboot');
+    }catch(\Exception $e){
+        
+    }
     $times = load();
     notify("Rebooting Server ...\nTotal Failures : ($times)");
     save(0);
